@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer for Change Wallpaper Service
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=30min
+AccuracySec=1s
+Unit=change-wallpaper.service
+
+[Install]
+WantedBy=timers.target

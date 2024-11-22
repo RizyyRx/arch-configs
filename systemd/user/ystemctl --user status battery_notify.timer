@@ -1,0 +1,8 @@
+[0;1;32m●[0m battery_notify.timer - Run Battery Notification Service every minute
+     Loaded: loaded (]8;;file://arch/home/spade/.config/systemd/user/battery_notify.timer/home/spade/.config/systemd/user/battery_notify.timer]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (waiting)[0m since Fri 2024-09-06 18:51:28 IST; 2min 6s ago
+ Invocation: a4250270b7c147268375d79141915a57
+    Trigger: Fri 2024-09-06 18:54:12 IST; 37s left
+   Triggers: ● battery_notify.service
+
+Sep 06 18:51:28 arch systemd[491]: Started Run Battery Notification Service every minute.

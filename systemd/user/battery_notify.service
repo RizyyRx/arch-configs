@@ -1,0 +1,12 @@
+[Unit]
+Description=Battery Notification Service
+
+[Service]
+ExecStart=/home/spade/bin/battery_notify.sh
+Type=simple
+Restart=on-failure
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/spade/.Xauthority
+
+[Install]
+WantedBy=default.target

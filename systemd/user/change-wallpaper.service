@@ -1,0 +1,9 @@
+[Unit]
+Description=Change Wallpaper
+
+[Service]
+ExecStart=/home/spade/bin/change-wallpaper.sh
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=default.target
